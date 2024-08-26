@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_lottie import st_lottie
 import requests
 st.set_page_config(page_title="My Webpage",page_icon="🧑‍💼",layout="wide")
 
@@ -44,5 +43,3 @@ with left_column:
     st.write("[LinkedIn >](https://www.linkedin.com/in/prakhar-gupta-79836317a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)")
 
 # Content for the right column
-with right_column:
-    st_lottie(lottie_finance, height=300, width=300)
